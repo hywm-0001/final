@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{margin: 0; padding: 0; list-style-type: none; text-decoration: none;}
+/* 인덱스 스타일 */
+video{position: fixed;right: 0; bottom: 0; min-width: 100%; min-height: 100%; z-index: 1;}
+.top{position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; background: radial-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.7)); z-index: 2;}
+.wrap{position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; z-index: 3;}
+.box01{width: 100%; padding-top: 72px; text-align: center;}
+.box02{position: relative; width: 100%; height: 94px;}
+.txt01{position: absolute; padding-top: 16px; text-align: center; font-family: "Noto Sans KR", serif; font-size: 21px; font-weight: 500; letter-spacing: -0.5px; line-height: 30px; color: #25D8B5; left: 97px;top: 12px; z-index: 5;}
+.b1{position: absolute;  z-index: 4;}
+.box03{width: 100%; padding-top: 280px; text-align: center;}
+
+/* 서브페이지 스타일 */
+
+/* 폰트 설정 */
+.font00{font-family: 'Noto Sans KR';}
+.font01{font-size: 21px; font-weight: 500; letter-spacing: -0.5px; line-height: 30px;}
+.font02{font-size: 16px; font-weight: 400; letter-spacing: -0.5px; line-height: 24px;}
+.font03{font-size: 30px; font-weight: 900; letter-spacing: -0.5px; line-height: 44px; color: #25D8B5;}
+.font04{font-size: 18px; font-weight: 400; letter-spacing: -0.5px; line-height: 26px; color: #707070;}
+.font05{font-size: 29px; font-weight: 900; letter-spacing: -0.5px; line-height: 42px; color: #25D8B5;}
+.font06{font-size: 10px; font-weight: 300; letter-spacing: -0.5px; line-height: 15px; color: #707070;}
+
+/* 본문 1 */
+.sb01{ width: 100%; height: 1460px;  background: linear-gradient(rgba(208, 243, 248, 1), rgba(234, 255, 219, 1))}
+.lg02{padding-top: 31px; text-align: center;}
+.m1{position: relative; padding-top: 43px; margin: 0 auto;}
+.m1c1{position: absolute;height: 357px;}
+.m1i1{position: absolute; top: 23px; right: 36px;}
+.m1c2{position: absolute; height: 311px; top: 422px;}
+.m1i2{position: absolute; top: 22px; left: 36px;}
+.m1c3{position: absolute; height: 393px; top: 760px; z-index: 2;}
+.m1i3{position: absolute; top: 22px; right: 39px;}
+.wb{position: absolute; width: 100%; height: 245px; background-color: white; top: 1024px; z-index: 1;}
+.c1{color: #288D78;}
+.c2{color: #BE6964;}
+.c3{color: #C3B55B;}
+.m1t1{position: absolute; width: 183px; top: 177px; left: 54px;}
+.m1t2{position: absolute; width: 276px; top: 244px; left: 54px;}
+.m1t3{position: absolute; text-align: right; width: 224px; top: 157px; right: 54px;}
+.m1t4{position: absolute; text-align: right;width: 277px; top: 224px; right: 54px;}
+.m1t5{position: absolute; width: 143px; top: 187px; left: 54px;}
+.m1t6{ position: absolute; width: 315px; top: 254px; left: 54px;}
+
+/* 본문 2 */
+.sb02{height: 3966px;  background-image: url(img/bg.png); background-repeat: no-repeat;}
+.m2{position: relative; height: 1048px; margin: 0 auto;}
+.m2_p01{ position: absolute; top: 51px; left: 26px; z-index: 2;}
+.m2c1{position: absolute; background-color: white; width: 294px; height: 79px; top: 150px; left: 24px; border-radius: 29px; filter: drop-shadow(0px 3px 6px #D4D2CC); z-index: 1;}
+.m2t1{position: absolute; top: 16px; left: 18px;}
+.m2_p02{position: absolute; top: 160px; right: 26px;}
+.m2t2{position: absolute; width: 336px; top: 269px; left: 47px;}
+.m2c2{position: relative; top: 423px;}
+.m2_img01{position: absolute; left: 63px; z-index: 4;}
+.m2_b01{position: absolute; z-index: 3;}
+.m2t3{position: absolute; width: 336px; top: 601px; left: 47px;}
+.m2c3{position: relative; top: 754px;}
+.m2_img02{position: absolute; top: 18px; left: 64px; z-index: 6;}
+.m2_b02{position: absolute; z-index: 5;}
+.m2t4{position: absolute; width: 338px; top: 902px; left: 46px;}
+
+/* 본문 3 */
+.m3{position: relative; height: 1843px; margin: 0 auto;}
+.m3_p01{position: absolute; right: 40px; z-index: 2;}
+.m3c1{position: absolute; background-color: white; width: 248px; height: 79px; top: 96px; right: 26px; border-radius: 29px; filter: drop-shadow(0px 3px 6px #D4D2CC); z-index: 1;}
+.m3t1{position: absolute; top: 15px; left: 25px;}
+.m3c2{position: relative; height: 363px; top: 220px;}
+.m3_img01{position: absolute; left: 145px;}
+.m3_p02{position: absolute; top: 189px;}
+.m3t2{position: absolute; width: 336px; top: 280px; left: 47px;}
+.m3c3{position: relative; height: 363px; top: 250px;}
+.m3_img02{position: absolute; left: 123px;}
+.m3t3{position: absolute; width: 336px; top: 277px; left: 47px;}
+.m3c4{position: relative; height: 389px; top: 275px;}
+.m3_img03{position: absolute; left: 130px;}
+.m3_p03{position: absolute; top: 200px; right: 65px;}
+.m3t4{width: 338px; position: absolute; top: 302px; left: 46px;}
+.m3c5{position: relative; height: 339px; top: 300px;}
+.m3_img04{position: absolute; left: 116px;}
+.m3t5{position: absolute; width: 336px; top: 241px; left: 47px;}
+
+/* 본문 4 */
+.m4{position: relative; height: 976px; margin: 0 auto;}
+.m4c1{position: absolute; background-color: white; width: 250px; height: 88px; left: 12px; border-radius: 29px; filter: drop-shadow(0px 3px 6px #D4D2CC); z-index: 1;}
+.m4t1{position: absolute; top: 22px; left: 25px;}
+.m4c2{position: absolute; height: 301px; top: 69px; z-index: 2;}
+.m4_img01{ position: absolute; left: 72px;}
+.m4_p01{position: absolute; top: 118px; left: 291px; z-index: 3;}
+.m4b1{position: absolute; width: 386px; height: 98px; top: 196px; left: 22px; background-color: white; filter: drop-shadow(0px 3px 6px #D4D2CC);}
+.m4t2{position: absolute; width: 346px; top: 8px; left: 22px;}
+.m4c3{position: absolute; top: 369px; height: 453px;}
+.m4_img02{position: absolute; left: 175px;}
+.m4_p02{ position: absolute; top: 62px; left: 40px; z-index: 3;}
+.m4b2{position: absolute; top: 178px; left: 22px; width: 386px; height: 275px; background-color: white; filter: drop-shadow(0px 3px 6px #D4D2CC);}
+.m4t3_1{position: absolute; width: 346px; top: 9px; left: 20px;}
+.m4t3_2{position: absolute; width: 346px; top: 177px; left: 20px;}
+.m4_p03{position: absolute; top: 238px; left: 296px;}
+
+/* 본문 5 */
+.sb03{
+height: 601px; position: relative; margin: 0 auto;}
+.t1{position: absolute; top: 43px;left: 50px;}
+.lg03{position: absolute; top: 107px; left: 119px}
+.bt02{position: absolute; top: 337px; left: 95px;}
+
+/* footer */
+footer{height: 178px; position: relative; margin: 0 auto;}
+.line{position: absolute; width: 393px; height: 1px; background-color: #707070; left: 18.5px;}
+.lg04{position: absolute; top: 42.5px; left: 85.7px;}
+.t2{position: absolute; text-align: center; top: 107px; left: 31px;}
